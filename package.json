@@ -1,0 +1,19 @@
+{
+  "name": "babel-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browserify babel-src.js -t babelify --outfile ./tests/babel-browserified.js && http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^5.8.25"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0"
+  }
+}
