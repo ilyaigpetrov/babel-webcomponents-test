@@ -1,1 +1,1 @@
-require('./vendor/babel-core/lib/api/browser');
+require('./vendor/babel/packages/babel-core/src/api/browser');
